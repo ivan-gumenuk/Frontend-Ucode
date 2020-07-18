@@ -1,0 +1,28 @@
+.search {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    position: relative;
+    width: 100%;
+}
+
+.search > input {
+    border-radius: 5px;
+    color: green;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search > button {
+    color: green;
+    height: 2em;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search > button:hover,
+.search > input:hover {
+    color: red;
+}

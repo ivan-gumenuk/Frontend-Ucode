@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SSuperhero Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Superhero Form</h1>
+  <form action="#">
+    <div class="box">
+      <p class="box-name">About the Superhero</p>
+      <label>Real Name
+        <input type="text" name="real-name" placeholder="Superhero real name">
+      </label>
+      <label>Superhero Name
+        <input type="text" name="superhero-alias" placeholder="Superhero alias">
+      </label>
+      <label>Age
+        <input type="number" min="1" max="999" type="number" name="age">
+      </label>
+      <br>
+      <label>About
+        <textarea rows="5" cols="70" maxlength="500" name="user_message"
+                  placeholder="Information about the superhero, max 500 symbols"></textarea>
+      </label>
+      <br>
+      <label>Photo:
+        <input type="file">
+      </label>
+    </div>
+    <div class="box">
+      <p class="box-name">Powers</p>
+      <label><input type="checkbox" name="Telekinesis" value="Telekinesis">Telekinesis</label>
+      <label><input type="checkbox" name="Strength" value="Super strength or speed">Super strength or speed</label>
+      <label><input type="checkbox" name="Shape-shifting" value="Shape shifting">Shape shifting</label>
+      <label><input type="checkbox" name="Flight" value="Flight">Flight</label>
+      <label><input type="checkbox" name="Elemental-control" value="Elemental control">Elemental control</label>
+      <label><input type="checkbox" name="Other" value="Other">Other</label>
+      <br>
+      <label>Level of control:<input step="1"  min="0" max="10" type="range" name="powers" value="1"></label>
+    </div>
+    <div class="box">
+      <p class="box-name">Origin of Powers</p>
+      <label><input type="radio" name="powers" value="Unknown">Unknown</label>
+      <label><input type="radio" name="powers" value="Freak lab accident">Freak lab accident</label>
+      <label><input type="radio" name="powers" value="Chosen by an ancient wise being">Chosen by an ancient wise being</label>
+      <label><input type="radio" name="powers" value="The superhero is not human">The superhero is not human</label>
+      <label><input type="radio" name="powers" value="Other">Other</label>
+    </div>
+    <div class="box footer">
+      <button type="reset">CLEAR</button>
+      <button type="submit">SEND</button>
+    </div>
+  </form>
+</body>
+</html>
+

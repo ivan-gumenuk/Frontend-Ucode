@@ -1,0 +1,24 @@
+a[href*="https://www"] {
+  color: green;
+}
+
+a[target^="_blank"]::after {
+  content: " \21d2";
+  color: coral;
+} /* Стрелка справа */
+
+a[href^="https://"]::before {
+  content: " \00bb";
+  padding-right: 10px;
+} /* Стрелки */
+
+a[href^="http://"]::before {
+  color: red;
+  content: " \00d7";
+  padding-right: 10px;
+} /* Хрестик */
+
+a[href$="/a"]:hover::after, a[href$=".a"]:hover::after {
+  content: " \2026 last symbol is a";
+  color: coral;
+} /* Подпись справа*/

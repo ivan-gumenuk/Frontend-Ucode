@@ -1,0 +1,54 @@
+.black {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.body {
+    border-spacing: 2px;
+}
+
+.orange {
+    background-color: #CC944D;
+}
+
+.green {
+    background-color: #377D21;
+}
+
+.blue {
+    background-color: #22578E;
+}
+
+.yellow {
+    background-color: #FFFD55;
+}
+
+.red {
+    background-color: #B23834;
+}
+
+.purple {
+    background-color: #8077B2;
+}
+
+tbody td {
+    border: 2px solid #DDD;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+     width: 100%;
+     border: 2px solid #DDD;
+     border-collapse: collapse;
+}

@@ -1,0 +1,36 @@
+.box {
+  border: 1px solid gray;
+  display: block;
+  margin: 10px;
+  position: relative;
+  padding: 15px 5px;
+}
+
+.box-name {
+  background: white;
+  margin-left: 5px;
+  top: -26.5px;
+  position: absolute;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+form {
+  border: 2px solid grey;
+  display: block;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, label {
+  margin: 15px 5px;
+}
+
+.footer {
+  border: 0 !important;
+}

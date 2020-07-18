@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.all {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 750px;
+}
+
+.box {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  height: 200px;
+  width: 100px;
+}
+
+.date {
+  background-color: steelblue;
+  height: 30px;
+  text-align: center;
+  padding: 5 50%;
+  color: white;
+  font-family: 700, 400;
+  font-size: 1.5em;
+}
+
+.temperature {
+  text-align: center;
+  font-family: 400, 700;
+  font-size: 2em;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.box:hover {
+  box-shadow: 0 0 20px 1px rgb(11, 149, 191);
+}
