@@ -1,6 +1,7 @@
 * {
   background-color: rgb(227,232,226);
-  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 .background {
@@ -17,13 +18,80 @@ h1 {
   background-color: rgb(185,48,52);
 }
 
-.mainmenu {
+ul.main-menu {
+  padding: 10px;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-
-.mainmenu {
-  list-style: none;
+.menu-name {
+  position: relative;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color:  rgb(185,48,52);
+  border-radius: 25px;
+  bottom: 10px;
+  color: black;
 }
-+
+
+.menu-body:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-name:hover + .menu-body{
+  visibility: visible;
+  opacity: 1;
+}
+
+.actors:hover .actor {
+  display: contents; 
+}
+
+.menu-body {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 0.3fr 1fr;
+  transition-delay: 0.7s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.wiki > a, .moder > a, .actors > a {
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color:  rgb(185,48,52);
+  border-radius: 25px;
+  color: black;
+}
+
+.actors li, .moder li {
+  position: relative;
+  margin: 15px;
+  right: 25px;
+}
+
+
+.actor {
+  font-weight: bold;
+  color: rgb(60, 111, 140);
+}
+
+.last {
+  display: none;
+}
+
+li.wiki {
+  text-align: right;
+}
+
+li.moder {
+  text-align: center;
+}
+
+li.actors {
+  text-align: start;
+}

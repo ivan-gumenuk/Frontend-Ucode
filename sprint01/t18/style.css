@@ -1,13 +1,14 @@
 .search {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
 }
 
 .search>input {
   border-radius: 5px;
   color: green;
+  flex-grow: 1;
   font-size: 14px;
   padding-left: 10px;
   padding-right: 10px;

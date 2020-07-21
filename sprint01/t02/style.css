@@ -1,54 +1,54 @@
 .black {
-    background-color: black;
-    color: white;
-    font-weight: bold;
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }
 
 .img {
-    height: 120px;
-    width: 120px;
-    border-radius: 20px;
+  height: 120px;
+  width: 120px;
+  border-radius: 20px;
 }
 
 .body {
-    border-spacing: 2px;
+  border-spacing: 2px;
 }
 
 .orange {
-    background-color: #CC944D;
+  background-color: #CC944D;
 }
 
 .green {
-    background-color: #377D21;
-}
+  background-color: #377D21;
+}  
 
 .blue {
-    background-color: #22578E;
+  background-color: #22578E;
 }
 
 .yellow {
-    background-color: #FFFD55;
+  background-color: #FFFD55;
 }
 
 .red {
-    background-color: #B23834;
+  background-color: #B23834;
 }
 
 .purple {
-    background-color: #8077B2;
+  background-color: #8077B2;
 }
 
 tbody td {
-    border: 2px solid #DDD;
+  border: 2px solid #DDD;
 }
 
 td {
-    text-align: center;
-    padding: 5px;
+  text-align: center;
+  padding: 5px;
 }
 
 table {
-     width: 100%;
-     border: 2px solid #DDD;
-     border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #DDD;
+  border-collapse: collapse;
 }
