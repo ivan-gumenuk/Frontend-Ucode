@@ -1,3 +1,7 @@
+.match {
+  transform: scale(0.9, 1);
+}
+
 .stick {
   background: linear-gradient(90deg, rgb(137,67,37), rgb(232,166,107));
   border: 1px solid rgb(92, 44, 1);

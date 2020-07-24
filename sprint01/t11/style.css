@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 .all {
@@ -21,13 +22,13 @@
   text-align: center;
   padding: 5 50%;
   color: white;
-  font-family: 700, 400;
+  font-weight: 700;
   font-size: 1.5em;
 }
 
 .temperature {
   text-align: center;
-  font-family: 400, 700;
+  font-weight: 400;
   font-size: 2em;
 }
 
