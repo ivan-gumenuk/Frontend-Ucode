@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 20px;
+  color: rgb(90, 90, 90);
+  width: 1100px;
+}
+
+.slider {
+  border: 2px solid rgba(128, 128, 128, 0.349);
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  width: 100%;
+  height: 600px;
+}
+
+.slider > .slider-image {
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+
+#img {
+  width: auto;
+  max-height: 600px;
+  max-width: 100%;
+}
+
+.slider button:hover {
+  background: rgba(128, 128, 128, 0.534);
+  color: rgba(128, 127, 127, 0.993);
+}
+
+.slider button {
+  background: rgba(128, 128, 128, 0.349);
+  border: 0;
+  color: rgba(128, 127, 127, 0.377);
+  font-size: 32px;
+  outline: none;
+}

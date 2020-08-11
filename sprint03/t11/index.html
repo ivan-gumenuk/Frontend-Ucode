@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Notes with cookies</title>
+  <meta name="description" content="t11. Notes with cookies">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="all">
+    <h1>Notes with cookies</h1>
+
+    <div class="button">
+      <button class="add-to-cookies" onclick="addCookie()">Add to cookies</button>
+      <button class="clear-cookies" onclick="deleteAllCookies()">Clear cookies</button>
+    </div>
+
+    <div class="input-form">
+      <label for="input-text">Text input:</label>
+      <textarea id="input-text" cols="30" rows="10" maxlength="40" ></textarea>
+    </div>
+
+    <div class="cookie-list">
+      <p>Notes archive:</p>
+      <div id="my-cookies"></div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

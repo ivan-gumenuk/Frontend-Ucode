@@ -1,0 +1,41 @@
+#table {
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 30px;
+  position: relative;
+  left: calc(50% - 250px);
+  width: 400px;
+  font-weight: bold;
+}
+
+#table > tr > td {
+  background: rgb(211, 211, 211);
+  padding: 15px 15px;
+  text-align: center;
+  width: 35%;
+}
+
+#table > tr:first-child > td {
+  background: rgb(215, 51, 33);
+  user-select: none;
+}
+
+#table > tr > td:first-child {
+  padding: 15px 45px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+#placeholder {
+  text-align: center;
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: white;
+  height: 20px;
+  font-weight: bold;
+  user-select: none;
+}

@@ -1,0 +1,82 @@
+.all {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  font-family: "Recursive", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 105, 105);
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  margin-bottom: 40px;
+}
+
+.clear-cookies {
+  grid-column: end;
+}
+
+.clear-cookies,
+.add-to-cookies {
+  padding: 10px 20px;
+  background-color: rgb(89, 226, 181);
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.clear-cookies:hover,
+.add-to-cookies:hover {
+  background-color: rgb(0, 124, 83);
+  color: white;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  padding: 20px 25px;
+  border-radius: 5px;
+  color: rgb(0, 105, 105);
+}
+
+.cookie-list {
+  margin-top: 15px;
+  background-color: rgb(240, 240, 240);
+  padding: 15px;
+  border-radius: 5px;
+  color: rgb(0, 105, 105);
+  font-family: inherit;
+}
+
+#my-cookies {
+  background-color: white;
+  padding: 5px;
+  color: rgb(0, 105, 105);
+  font-family: inherit;
+  border-radius: 5px;
+}
+
+#input-text {
+  border: 2px solid rgb(89, 226, 181);
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 5px;
+  width: 450px;
+  min-width: 400px;
+  max-width: 600px;
+  max-height: 300px;
+  outline-color: rgb(0, 124, 83);
+  color: rgb(0, 105, 105);
+}
+
+@media screen and (max-width: 600px) {
+  #input-text {
+    width: 400px;
+    resize: vertical;
+  }
+}
