@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Marvelous list</title>
+</head>
+
+<body>
+  <h1 class="title">Marvelous list</h1>
+  <div class="buttons">
+    <input class="btn" type="button" value="Все" onclick="addAllList(movies, `all`)">
+    <input class="btn" type="button" value="Избранное" onclick="addAllList([...favorite], `fav`)">
+  </div>
+  <div id="big-box">
+    <div id="list"></div>
+    <div id="promo"></div>
+  </div>
+
+  <script src="js/movies.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

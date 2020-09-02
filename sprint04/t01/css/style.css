@@ -1,0 +1,155 @@
+* {
+  border-radius: 5px;
+}
+.title {
+  text-align: center;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: center;
+}
+.btn {
+  height: 35px;
+  font-weight: bold;
+  margin: 0 10px;
+  background-color: rgb(147, 228, 228);
+}
+
+.btn:hover {
+  background-color: rgb(8, 231, 231);
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 5px;
+  justify-items: auto;
+}
+
+.btn-list {
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0);
+  max-height: 50px;
+  margin-bottom: 15px;
+}
+
+.btn-list:hover {
+  background-color: rgb(147, 228, 228);
+  border-bottom: 2px solid aqua;
+}
+
+#big-box {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: rgba(128, 128, 128, 0.486);
+  margin: 30px 10px;
+}
+
+#promo {
+  background-color: rgba(255, 255, 255, 0.404);
+  margin: 10px 20px;
+  padding-left: 10px;
+  min-height: 500px;
+}
+
+#promo img {
+  float: right;
+  width: 50%;
+  padding: 15px;
+}
+
+#promo ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#promo ul li {
+  margin: 0 10px;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0.774);
+  border: 1px solid aqua;
+  font-weight: bold;
+  text-align: center;
+}
+
+#promo p {
+  padding-left: 10px;
+}
+
+#promo h2 {
+  font-size: 50px;
+  line-height: 0.1px;
+  padding: 10px 15px 0 5px;
+}
+
+#promo span {
+  padding-left: 25px;
+}
+
+.heart {
+  position: relative;
+  left: 42%;
+  top: 7%;
+  width: 20px;
+  height: 35px;
+  background-color: rgb(240, 56, 56);
+  box-shadow: -1px 0px 2px #444;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  /* Определяем угол наклона */
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+/* Формируем правую часть */
+.heart:before {
+  position: absolute;
+  width: 35px;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background-color: rgb(240, 56, 56);
+  box-shadow: 0px 3px 3px #444444;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 0 50px 50px 0;
+}
+/* Убираем тень при наведении */
+.heart:hover:before,
+.heart:hover {
+  box-shadow: none;
+  background-color: red;
+}
+
+h3 {
+  text-align: center;
+}
+
+@media (max-width: 1650px) {
+  #promo ul {
+    grid-template-columns: 1fr 1fr;
+  }
+  #promo ul li {
+    margin: 10px;
+  }
+  #promo img {
+    float: none;
+    width: 90%;
+    margin: 15px;
+  }
+  .heart {
+    position: relative;
+    top: 3%;
+    left: 90%;
+  }
+}
