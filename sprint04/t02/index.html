@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Upgrade Human</title>
+</head>
+
+<body>
+  <h1>Upgrade Human</h1>
+  <div class="human">
+    <div class="image">
+      <img id="human-image" src="assets/image/human.png">
+    </div>
+    <div class="message" id="mes"></div>
+    <div class="back-properties">
+      <div id="properties">
+        <span id="first-name"></span><br>
+        <span id="last-name"></span><br>
+        <span id="age"></span><br>
+        <span id="gender"></span><br>
+        <span id="calories"></span><br><br>
+        <input type="button" value="Sleep" onclick="doSleep()">
+        <input type="button" value="Feed" onclick="human.feed()">
+        <input id="turn" type="button" value="Turn into superhero" onclick="turnSuperHero()">
+      </div>
+    </div>
+  </div>
+  <script src="js/tools.js"></script>
+  <script src="js/class.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

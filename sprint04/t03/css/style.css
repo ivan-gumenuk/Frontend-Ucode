@@ -1,0 +1,20 @@
+body {
+  overflow: hidden;
+}
+
+.block {
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+}
+
+.block:nth-child(1) {background: #D3C464;}
+.block:nth-child(2) {background: #6FD371;}
+.block:nth-child(3) {background: #3984D1;}
+.block:nth-child(4) {background: #9B54D0;}
+.block:nth-child(5) {background: #C74758;}
+.block:nth-child(6) {background: #C95F7C;}
