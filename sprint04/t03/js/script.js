@@ -1,12 +1,10 @@
 let element;
 
 document.addEventListener("dblclick", (event) => {
-  if (event.target.classList.contains("block")) {
     if (event.target.id === "on")
       event.target.id = "off";
     else
       event.target.id = "on";
-  }
 });
 
 document.addEventListener("mousedown", (event) => {
