@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <title>Super-stats</title>
+</head>
+
+<body>
+  <h1>Super-stats</h1>
+  <ul>DESCRIPTION:
+    <li>compare statistics of different superheroes,</li>
+    <li>find superheroes to compare using search, or when clicking the [Random]
+      button to select a random superhero,</li>
+    <li>add the hero to compare when clicking on it,</li>
+    <li>the chart depends on the selected heroes and the selected
+      stats for comparison.</li>
+  </ul>
+  <ul>Alert about errors if:
+    <li>the API returns an error (for example, nothing found for the
+      search input),</li>
+    <li>not enough superheroes to compare or too many.
+      There must be at least two, and amaximum of 20.</li>
+  </ul>
+  <div class="hero-input">
+    <input id="input-hero" type="text" placeholder="Enter superhero name">
+    <button onclick="searchHero()">Search</button>
+    <button onclick="randomHero()">Random</button>
+    <button id="compare-button" onclick="compereHeros()">Compere (0)</button>
+    <button onclick="resetHero()">Reset</button>
+  </div>
+  <div id="hero-list"></div>
+  <div id="chart">
+    <h1>Find your heros, and push "Compere"</h1>
+  </div>
+  <div id="print-button"></div>
+  <script src="js/script.js"></script>
+  <script src="js/chart.js"></script>
+</body>
+
+</html>

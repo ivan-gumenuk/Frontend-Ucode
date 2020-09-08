@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+body > div {
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  padding-left: 20%;
+  font-weight: bold;
+}
+
+.hero-input {
+  display: grid;
+  grid-template-columns: 30% 100px 100px 120px 100px;
+  grid-gap: 20px;
+  justify-content: center;
+  height: 40px;
+}
+
+#hero-list .checked {
+  background-color: rgb(167, 53, 53);
+}
+
+#hero-list .checked:hover {
+  background-color: rgb(167, 53, 53);
+}
+
+#chart {
+  padding: 40px;
+  margin: 40px;
+  background-color: white;
+  border-radius: 15px;
+  color: rgb(39, 39, 39);
+}
+
+#hero-list {
+  display: grid;
+  grid-template-columns: repeat(6, 15%);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+#hero-list button:hover {
+  box-shadow: 0 0 5px white;
+  background-color: white;
+}
+
+#hero-list button {
+  background-color: rgb(209, 209, 209);
+}
+
+#print {
+  position: relative;
+  left: 100px;
+}
+
+input {
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
