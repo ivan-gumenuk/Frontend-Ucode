@@ -1,0 +1,19 @@
+body {
+  background: #444;
+  color: #ededed;
+  margin: 0;
+  padding: 20px;
+  height: 90vh;
+  overflow: hidden;
+}
+
+#map {
+  border: 2px solid #ededed;
+  border-radius: 10px;
+  width: 100%;
+  height: 90%;
+}
+
+h1 {
+  text-align: center;
+}
